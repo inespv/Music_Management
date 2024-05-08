@@ -44,7 +44,7 @@ public class Song {
     {
         this.genre = genre;
     }
-    public Artist GetArtista()
+    public Artist GetArtist()
     {
         return artist;
     }
@@ -56,12 +56,10 @@ public class Song {
     {
         return year;
     }
-
     public void SetYear(int year)
     {
         this.year = year;
     }
-
     public Album GetAlbum()
     {
         return album;
