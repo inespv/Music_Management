@@ -1,6 +1,4 @@
 package org.example.musicmanagement;
 
-public class MenuPageView {
-
-
+public class SearchDataViewController {
 }

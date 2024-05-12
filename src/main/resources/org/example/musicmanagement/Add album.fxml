@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.musicmanagement.AddSongViewController">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+        <TableView fx:id="musicTable" layoutX="54.0" layoutY="-2.0" prefHeight="196.0" prefWidth="599.2" style="-fx-background-color: #FFC4E8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="title" prefWidth="132.0" text="Title" />
+                <TableColumn fx:id="genre" minWidth="0.0" prefWidth="132.0" text="Genre" />
+                <TableColumn fx:id="artist" editable="false" minWidth="0.0" prefWidth="132.0" text="Artist" />
+                <TableColumn fx:id="year" prefWidth="61.79998779296875" text="Year" />
+                <TableColumn fx:id="duration" prefWidth="140.60000610351562" text="Duration" />
+            </columns>
+        </TableView>
+    </AnchorPane>
+    <AnchorPane fx:id="titleText" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+        <HBox layoutX="20.0" layoutY="14.0" spacing="20.0">
+            <Label minWidth="-Infinity" prefHeight="26.0" prefWidth="54.0" text="Title" />
+            <TextField fx:id="titleTextBox" maxWidth="1.7976931348623157E308" minWidth="-Infinity" HBox.hgrow="ALWAYS" />
+        </HBox>
+        <HBox layoutX="20.0" layoutY="53.0" spacing="20.0">
+            <Label minWidth="-Infinity" prefHeight="26.0" prefWidth="54.0" text="Genre" />
+            <TextField fx:id="genreTextBox" maxWidth="1.7976931348623157E308" minWidth="-Infinity" HBox.hgrow="ALWAYS" />
+        </HBox>
+        <HBox layoutX="38.0" layoutY="139.0" spacing="20.0">
+            <Label />
+        </HBox>
+        <Label layoutX="254.0" layoutY="70.0" />
+        <HBox layoutX="312.0" layoutY="14.0" spacing="20.0">
+            <Label />
+        </HBox>
+        <Label layoutX="243.0" layoutY="152.0" />
+        <HBox layoutX="12.0" layoutY="14.0" spacing="20.0">
+            <HBox spacing="20.0" />
+        </HBox>
+        <Button fx:id="addButtonAlbum" layoutX="391.0" layoutY="103.0" mnemonicParsing="false" text="ADD TO LIST" />
+        <HBox layoutX="30.0" layoutY="63.0" spacing="20.0" />
+        <HBox layoutX="20.0" layoutY="98.0">
+            <HBox />
+        </HBox>
+        <HBox layoutX="20.0" layoutY="134.0" spacing="20.0" />
+        <HBox layoutX="279.0" layoutY="53.0" spacing="20.0">
+            <Label minWidth="-Infinity" prefHeight="26.0" prefWidth="54.0" text="Year" />
+            <TextField fx:id="yearTextBox" maxWidth="1.7976931348623157E308" minWidth="-Infinity" HBox.hgrow="ALWAYS" />
+        </HBox>
+        <HBox layoutX="279.0" layoutY="14.0" spacing="20.0">
+            <Label minWidth="-Infinity" prefHeight="26.0" prefWidth="54.0" text="Artist" />
+            <TextField fx:id="artistTextBox" maxWidth="1.7976931348623157E308" minWidth="-Infinity" HBox.hgrow="ALWAYS" />
+        </HBox>
+        <HBox layoutX="279.0" layoutY="92.0" spacing="20.0" />
+        <HBox layoutX="20.0" layoutY="92.0" spacing="20.0" />
+         <Label layoutX="19.0" layoutY="90.0" minWidth="-Infinity" prefHeight="26.0" prefWidth="54.0" text="Duration" />
+         <TextField fx:id="durationTextBox" layoutX="94.0" layoutY="90.0" maxWidth="1.7976931348623157E308" minWidth="-Infinity" />
+
+    </AnchorPane>
+
+</SplitPane>

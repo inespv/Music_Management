@@ -4,13 +4,13 @@ public class Song {
 
     private String title;
     private String genre;
-    private Album album;
-    private Artist artist;
+    private String album;
+    private String artist;
     private int year;
     private double duration;
 
-    public Song(String title, String genre, Artist artist,
-                   int year, Album album, double duration)
+    public Song(String title, String genre, String artist,
+                   int year, String album, double duration)
     {
         this.title = title;
         this.genre = genre;
@@ -19,15 +19,15 @@ public class Song {
         this.album = album;
         this.duration = duration;
     }
-    public Song()
+    /*public Song()
     {
        title = " ";
         genre = " ";
-        album = new Album();
-        artist = new Artist();
+        album = " ";
+        artist = " ";
         year = 0;
         duration = 0;
-    }
+    }*/
     public String GetTitle()
     {
         return title;
@@ -44,11 +44,11 @@ public class Song {
     {
         this.genre = genre;
     }
-    public Artist GetArtist()
+    public String GetArtist()
     {
         return artist;
     }
-    public void SetArtist(Artist artist)
+    public void SetArtist(String artist)
     {
         this.artist = artist;
     }
@@ -60,11 +60,11 @@ public class Song {
     {
         this.year = year;
     }
-    public Album GetAlbum()
+    public String GetAlbum()
     {
         return album;
     }
-    public void SetAlbum(Album album)
+    public void SetAlbum(String album)
     {
         this.album = album;
     }

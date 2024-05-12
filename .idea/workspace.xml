@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="924f9c89-6134-4aca-a76d-3b0e6089908e" name="Changes" comment="Commit classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Management/AlbumManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Management/ArtistManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Management/SongManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/MenuPageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/WelcomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/MenuPage-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/WelcomePage-view.Fxml.fxml" afterDir="false" />
+    <list default="true" id="924f9c89-6134-4aca-a76d-3b0e6089908e" name="Changes" comment="Commit scene">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/AddAlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/AddDataViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/AddSongViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/SearchDataViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/Add album.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/Add song-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/AddData-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/Search data-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/music/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/Album.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/music/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/MenuPageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/MenuPageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/WelcomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/musicmanagement/WelcomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/MenuPage-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/MenuPage-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/WelcomePage-view.Fxml.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/example/musicmanagement/main.view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +77,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/perez/IdeaProjects/MusicManagement/src/main/java/org/example/musicmanagement&quot;,
@@ -80,6 +94,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\perez\IdeaProjects\MusicManagement\src\main\resources\org\example\musicmanagement" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="org.example.musicmanagement" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -115,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715098847068</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit scene">
+      <option name="closed" value="true" />
+      <created>1715189119894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715189119894</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +174,7 @@
     <MESSAGE value="Commit one" />
     <MESSAGE value="Commit two" />
     <MESSAGE value="Commit classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit classes" />
+    <MESSAGE value="Commit scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit scene" />
   </component>
 </project>

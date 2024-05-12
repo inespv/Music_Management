@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.musicmanagement/org.example.musicmanagement.HelloApplication
+                            <mainClass>org.example.musicmanagement/org.example.musicmanagement.Main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC4E8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.musicmanagement.AddDataViewController">
+   <children>
+      <Label layoutX="195.0" layoutY="30.0" prefHeight="58.0" prefWidth="209.0" text="ADD DATA " textAlignment="CENTER">
+         <font>
+            <Font name="Consolas" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="97.0" text="For which one do you want to add data of ?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="95.0" layoutY="200.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="109.0" style="-fx-background-color: #FC8CD1;" text="SONG" />
+      <Button layoutX="400.0" layoutY="200.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="109.0" style="-fx-background-color: #FC8CD1;" text="ALBUM" />
+      <Button layoutX="234.0" layoutY="337.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="131.0" style="-fx-background-color: #FC8CD1;" text="GO BACK" />
+   </children>
+</AnchorPane>

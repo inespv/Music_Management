@@ -77,6 +77,8 @@ public class Album {
     }
 
     public  String ToString(){
-        return title +genre + artist + year +duration ;
+        return "Title :" + title + " genre :" + genre +
+                 "artist :" + artist + " duration :"
+                + duration + " year :" + year;
     }
 }

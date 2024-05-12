@@ -5,27 +5,22 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #A531B6;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.musicmanagement.MenuPageView">
-   <children>
-      <Button layoutX="68.0" layoutY="127.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="ADD" />
-      <Button layoutX="68.0" layoutY="236.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="SHOW DATA" />
-      <Button layoutX="427.0" layoutY="236.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="SEARCH DATA" />
-      <Button layoutX="427.0" layoutY="127.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="MODIFY" />
-      <Button layoutX="208.0" layoutY="319.0" mnemonicParsing="false" text="WELCOME SCREEN RETURN" />
-      <Label layoutX="225.0" layoutY="33.0" text="MENU ">
-         <font>
-            <Font name="Consolas" size="48.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0">
-         <image>
-            <Image url="@../../../../../../../../Downloads/Minecraft%20Disc%20-%20Wait.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0">
-         <image>
-            <Image url="@../../../../../../../../Downloads/Minecraft%20Disc%20-%20Wait.jpg" />
-         </image>
-      </ImageView>
-   </children>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC4E8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.musicmanagement.MenuPageView">
+   <Button layoutX="47.0" layoutY="200.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="ADD" />
+   <Button layoutX="484.0" layoutY="200.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="SHOW DATA" />
+   <Button layoutX="335.0" layoutY="200.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="SEARCH DATA" />
+   <Button layoutX="187.0" layoutY="200.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="96.0" text="MODIFY" />
+   <Button layoutX="217.0" layoutY="341.0" mnemonicParsing="false" text="WELCOME SCREEN RETURN" />
+   <Label layoutX="246.0" layoutY="29.0" text="MENU">
+      <font>
+         <Font name="Consolas" size="48.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="42.0" fitWidth="106.0" layoutX="247.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true" />
+   <Label layoutX="103.0" layoutY="112.0" text="Which option do you want to pick ?">
+      <font>
+         <Font name="Consolas" size="21.0" />
+      </font>
+   </Label>
+   <Label layoutX="246.0" layoutY="147.0" />
 </AnchorPane>
