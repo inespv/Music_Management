@@ -2,7 +2,9 @@ package Management;
 
 import music.Album;
 import java.util.ArrayList;
-
+/**
+ * Class with all the Album methods
+ */
 public class AlbumManagement {
 
     Album album;

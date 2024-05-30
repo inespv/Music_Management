@@ -2,7 +2,9 @@ package Management;
 
 import music.Song;
 import java.util.ArrayList;
-
+/**
+ * Class with all the Song methods
+ */
 public class SongManagement {
 
     Song song;
